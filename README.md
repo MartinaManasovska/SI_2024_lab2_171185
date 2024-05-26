@@ -18,7 +18,6 @@ Control flow graph
 2. Кога allItems не е null односно (allItems != null) allItems е валидна листа.
 3. Третиот test case е кога item.getName() e 'null' односно важи првиот дел од условот: if (item.getName() == null || item.getName().length() == 0)
 4. Четвртиот test case e кога item.getName() е празен стринг односно важи вториот дел од условот: if (item.getName() == null || item.getName().length() == 0) 
-  - И во двата случаи item.getName() треба да се сетира на 'unknown'.
 5. Кога if (item.getBarcode() != null), тогаш програмата си продолжува без да фрли исклучок.
 6. Шестиот test case е кога if (item.getBarcode() == null), во тој случај програмата фрла RuntimeException исклучок.
 7. Кога barCode содржи валидни карактери, програмата си продолжува.
